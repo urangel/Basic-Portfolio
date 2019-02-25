@@ -70,6 +70,10 @@ html, body {
     border-radius: 10px;
 }
 
+.bioText {
+    color: #777777;
+}
+
 .botBorder {
     border-bottom: 2px solid #ccc;
     width: 860px;
@@ -85,6 +89,9 @@ html, body {
     color: white;
     background-color: #4aaaa5;
     margin-top: 110px;
+    position: absolute;
+    width: 223px;
+    padding: 1px;
 }
 
 .push, .footer {
@@ -109,6 +116,14 @@ background-color: #ffffff;
 padding: 5px;
 border-right: solid #cb4154;
 padding-right: 15px;
+}
+
+#bioPic {
+    float: left;
+    height: 150px;
+    width: 200x;
+    border-radius: 10px;
+    margin: 20px 40px 40px 0px;
 }
 
 #contactNav {
@@ -145,4 +160,5 @@ padding-right: 15px;
     float: left;
     margin: 0px 15px 15px 30px;
     border-radius: 10px;
+    position: relative;
 }
