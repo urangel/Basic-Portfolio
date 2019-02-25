@@ -5,10 +5,12 @@ nav {
 
 a {
     color: #777777;
+    text-decoration: none;
 }
 
 a:hover {
     color: #cb4154;
+    border-bottom: solid #cb4154 1px;
 }
 
 footer {
@@ -45,6 +47,11 @@ textarea {
 form {
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 .container {
     background-color: white;
     height: 500px;
@@ -59,6 +66,10 @@ form {
     color: #cccccc;
 }
 
+.kitties{
+    border-radius: 10px;
+}
+
 .botBorder {
     border-bottom: 2px solid #ccc;
     width: 860px;
@@ -69,9 +80,11 @@ form {
     margin-bottom: -50px;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
+.ribbon{
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    margin-top: 110px;
 }
 
 .push, .footer {
@@ -94,12 +107,42 @@ float: right;
 margin: 18px 10px 0px 0px;
 background-color: #ffffff;
 padding: 5px;
+border-right: solid #cb4154;
+padding-right: 15px;
 }
 
 #contactNav {
     margin-right: 10%;
 }
 
-#indexNav, #portfolioNav {
-    border-right: solid #777777;
+#cat1{
+    background-image: url("../images/cat1.jpg");
+}
+
+#cat2{
+    background-image: url("../images/cat2.jpg");
+}
+
+#cat3{
+    background-image: url("../images/cat3.jpg");
+}
+
+#cat4{
+    background-image: url("../images/cat4.jpg");
+}
+
+#cat5{
+    background-image: url("../images/cat5.jpg");
+}
+
+#cat6{
+    background-image: url("../images/cat6.jpg");
+}
+
+#cat1, #cat2, #cat3, #cat4, #cat5, #cat6 {
+    height: 190px;
+    width: 225px;
+    float: left;
+    margin: 0px 15px 15px 30px;
+    border-radius: 10px;
 }
