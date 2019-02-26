@@ -73,6 +73,7 @@ html, body {
 .bioText {
     color: #777777;
     text-indent: 2em;
+    text-align: justify;
 }
 
 .botBorder {
